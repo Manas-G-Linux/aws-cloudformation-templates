@@ -1,6 +1,7 @@
 AWSTemplateFormatVersion: '2010-09-09'
 Metadata: 
   License: Apache-2.0
+  '''
 Description: 'AWS CloudFormation Sample Template ELBGuidedAutoScalingRollingUpdates:
   This example creates an auto scaling group behind a load balancer with a simple
   health check. The Auto Scaling launch configuration includes an update policy that
@@ -9,6 +10,7 @@ Description: 'AWS CloudFormation Sample Template ELBGuidedAutoScalingRollingUpda
   **WARNING** This template creates one or more Amazon EC2  instances and an Elastic
   Load Balancer. You will be billed for the AWS resources used if you create a stack
   from this template.'
+  '''
 Parameters:
   InstanceType:
     Description: WebServer EC2 instance type
